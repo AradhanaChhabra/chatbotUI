@@ -1,0 +1,15 @@
+.botMessage {
+	white-space: pre-wrap;
+}
+
+.botMessage :global(.prose pre) {
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+}
+
+.botMessage :global(.prose code) {
+	background-color: rgba(0, 0, 0, 0.1);
+	padding: 2px 4px;
+	border-radius: 4px;
+}

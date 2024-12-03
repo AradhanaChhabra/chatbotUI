@@ -16,15 +16,24 @@
 		"@radix-ui/react-toast": "^1.2.2",
 		"class-variance-authority": "^0.7.1",
 		"clsx": "^2.1.1",
+		"github-markdown-css": "^5.8.1",
 		"lucide-react": "^0.462.0",
 		"next": "15.0.3",
 		"react": "19.0.0-rc-66855b96-20241106",
 		"react-dom": "19.0.0-rc-66855b96-20241106",
-		"react-markdown": "^9.0.1",
+		"rehype-raw": "^7.0.0",
+		"rehype-stringify": "^10.0.1",
+		"remark": "^15.0.1",
+		"remark-gfm": "^4.0.0",
+		"remark-html": "^16.0.1",
+		"remark-parse": "^11.0.0",
+		"remark-rehype": "^11.1.1",
 		"tailwind-merge": "^2.5.5",
-		"tailwindcss-animate": "^1.0.7"
+		"tailwindcss-animate": "^1.0.7",
+		"unified": "^11.0.5"
 	},
 	"devDependencies": {
+		"@tailwindcss/typography": "^0.5.15",
 		"@types/node": "^20",
 		"@types/react": "^18",
 		"@types/react-dom": "^18",
@@ -33,6 +42,10 @@
 		"postcss": "^8",
 		"prettier": "^3.4.1",
 		"prettier-plugin-tailwindcss": "^0.6.9",
+		"remark-cli": "^12.0.1",
+		"remark-preset-lint-consistent": "^6.0.0",
+		"remark-preset-lint-recommended": "^7.0.0",
+		"remark-toc": "^9.0.0",
 		"tailwindcss": "^3.4.1",
 		"typescript": "^5"
 	}

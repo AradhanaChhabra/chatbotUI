@@ -33,7 +33,7 @@ export function useChat() {
 			}
 
 			const data = await response.json();
-			console.log(data);
+
 			setMessages((prev) => [...prev, data]);
 		} catch (error) {
 			console.error("Error:", error);
